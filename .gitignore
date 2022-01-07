@@ -72,3 +72,6 @@ target_wrapper.*
 
 # QtCreator 4.8< compilation database 
 compile_commands.json
+
+# VsCode
+.vscode/
