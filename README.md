@@ -50,7 +50,7 @@ target_link_libraries(${PROJECT_NAME} PRIVATE qcustomplot)
 
 <!-- Links to this repository -->
 [changelog-repo]: https://github.com/leger50/QCustomPlot-library/blob/dev/CHANGELOG.md
-[changelog-official]: https://github.com/leger50/QCustomPlot-library/blob/dev/changelog-official.md
+[changelog-official]: https://github.com/leger50/QCustomPlot-library/blob/dev/changelog-official.txt
 [license]: https://github.com/leger50/QCustomPlot-library/blob/master/LICENSE.md
 
 [tag-2.1.0]: https://github.com/leger50/QCustomPlot-library/releases/tag/2.1.0
