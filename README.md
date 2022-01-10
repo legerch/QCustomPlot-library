@@ -32,6 +32,7 @@ add_subdirectory(QCustomPlot-library) # Or if library is put in a folder "depend
 # QCustomPlot library
 target_link_libraries(${PROJECT_NAME} PRIVATE qcustomplot)
 ```
+> Examples of how to use the library can be found in the associated repository [QCustomPlot-examples][repo-qcp-examples]
 
 # 4. License
 
@@ -48,8 +49,8 @@ target_link_libraries(${PROJECT_NAME} PRIVATE qcustomplot)
 [repo-qcp-examples]: https://github.com/leger50/QCustomPlot-examples
 
 <!-- Links to this repository -->
-[changelog-repo]: https://github.com/leger50/QCustomPlot-library/blob/master/CHANGELOG.md
-[changelog-official]: https://github.com/leger50/QCustomPlot-library/blob/master/changelog-official.md
+[changelog-repo]: https://github.com/leger50/QCustomPlot-library/blob/dev/CHANGELOG.md
+[changelog-official]: https://github.com/leger50/QCustomPlot-library/blob/dev/changelog-official.md
 [license]: https://github.com/leger50/QCustomPlot-library/blob/master/LICENSE.md
 
 [tag-2.1.0]: https://github.com/leger50/QCustomPlot-library/releases/tag/2.1.0
