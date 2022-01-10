@@ -16,6 +16,7 @@ This repository also provide a [changelog][changelog-repo] in order to track cha
 
 | Library version | Type of version<br>(**official** or **community**) | Qt compatibility |
 | :-: | :-: | :-: |
+| [2.1.1][tag-2.1.1] | Community | `Qt 5.8.x` -> `Qt 6.2.x` |
 | [2.1.0][tag-2.1.0] | Official | `Qt 4.6.x` -> `Qt 6.0.0` |
 
 # 3. How to use
@@ -53,4 +54,5 @@ target_link_libraries(${PROJECT_NAME} PRIVATE qcustomplot)
 [changelog-official]: https://github.com/leger50/QCustomPlot-library/blob/dev/changelog-official.txt
 [license]: https://github.com/leger50/QCustomPlot-library/blob/master/LICENSE.md
 
+[tag-2.1.1]: https://github.com/leger50/QCustomPlot-library/releases/tag/2.1.1
 [tag-2.1.0]: https://github.com/leger50/QCustomPlot-library/releases/tag/2.1.0
