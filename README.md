@@ -1,21 +1,37 @@
 **Table of contents :**
 - [1. Introduction](#1-introduction)
+- [Current version](#current-version)
 - [2. How to use](#2-how-to-use)
 - [3. License](#3-license)
 
 # 1. Introduction
 
-This repository will allow to use [QCustomPlot][qcp-main] as a shared library compliant with [CMake][cmake] build system.  
-Besides, this repository will also provides _community patches_ available.
+This repository allow to use [QCustomPlot][qcp-main] as a shared library compliant with [CMake][cmake] build system.  
+Besides, this repository also provides _community patches_ available.
 
-//TODO : changelog of repo
-//TODO : changelog of QCP library
-//TODO : current version + patch applied (in an array)
+# Current version
+
+Official changelog of the library can be found at [official changelog][changelog-official] file.  
+This repository also provide a [changelog][changelog-repo] in order to track change differencies with the official version.
+
+| Library version | Type of version<br>(**official** or **community**) | Qt compatibility |
+| :-: | :-: | :-: |
+| [2.1.0][tag-2.1.0] | Official | `Qt 4.6.x` -> `Qt 6.0.0` |
 
 # 2. How to use
 
-//TODO : CMake description
-//TODO : link to examples
+This library can be use as an _embedded library_ in a subdirectory of your project (like a _git submodule_ for example) :
+1. In the **root** CMakeLists, add instructions :
+```cmake
+add_subdirectory(QCustomPlot-library) # Or if library is put in a folder "dependencies" : add_subdirectory(dependencies/QCustomPlot-library)
+```
+
+2. In the **application/library** CMakeLists, add instructions :
+```cmake
+# Link needed libraries
+# QCustomPlot library
+target_link_libraries(${PROJECT_NAME} PRIVATE qcustomplot)
+```
 
 # 3. License
 
@@ -28,5 +44,12 @@ Besides, this repository will also provides _community patches_ available.
 <!-- Links to useful ressources -->
 [cmake]: https://cmake.org/
 
-<!-- Links to repository -->
+<!-- Links to external repositories -->
+[repo-qcp-examples]: https://github.com/leger50/QCustomPlot-examples
+
+<!-- Links to this repository -->
+[changelog-repo]: https://github.com/leger50/QCustomPlot-library/blob/master/CHANGELOG.md
+[changelog-official]: https://github.com/leger50/QCustomPlot-library/blob/master/changelog-official.md
 [license]: https://github.com/leger50/QCustomPlot-library/blob/master/LICENSE.md
+
+[tag-2.1.0]: https://github.com/leger50/QCustomPlot-library/releases/tag/2.1.0
