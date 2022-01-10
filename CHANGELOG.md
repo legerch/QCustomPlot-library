@@ -7,6 +7,7 @@ The format is based on [Keep a Changelog] and this project adheres to [Semantic 
 Creation of the repository which provides :
 - **QCustomPlot** library compliant with _Cmake_ projects (`.pro` file has been replaced by `CMakeLists.txt`)
 - Hide _Qt dependencies_, callers no longer needed to add mandatory modules of the library in their own _CMakeLists_ project (like `printsupport` module for example)
+- Add a `config.h.in` file in order to know which version of the library we are using from the caller project (multiple macros are defined, like `QCP_LIB_VERSION` for example).
 
 <!-- Links -->
 [keep a changelog]: https://keepachangelog.com/en/1.0.0/

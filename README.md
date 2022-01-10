@@ -1,15 +1,15 @@
 **Table of contents :**
 - [1. Introduction](#1-introduction)
-- [Current version](#current-version)
-- [2. How to use](#2-how-to-use)
-- [3. License](#3-license)
+- [2. Current version](#2-current-version)
+- [3. How to use](#3-how-to-use)
+- [4. License](#4-license)
 
 # 1. Introduction
 
 This repository allow to use [QCustomPlot][qcp-main] as a shared library compliant with [CMake][cmake] build system.  
 Besides, this repository also provides _community patches_ available.
 
-# Current version
+# 2. Current version
 
 Official changelog of the library can be found at [official changelog][changelog-official] file.  
 This repository also provide a [changelog][changelog-repo] in order to track change differencies with the official version.
@@ -18,7 +18,7 @@ This repository also provide a [changelog][changelog-repo] in order to track cha
 | :-: | :-: | :-: |
 | [2.1.0][tag-2.1.0] | Official | `Qt 4.6.x` -> `Qt 6.0.0` |
 
-# 2. How to use
+# 3. How to use
 
 This library can be use as an _embedded library_ in a subdirectory of your project (like a _git submodule_ for example) :
 1. In the **root** CMakeLists, add instructions :
@@ -33,7 +33,7 @@ add_subdirectory(QCustomPlot-library) # Or if library is put in a folder "depend
 target_link_libraries(${PROJECT_NAME} PRIVATE qcustomplot)
 ```
 
-# 3. License
+# 4. License
 
 [QCustomPlot][qcp-main] is released under [GPL-3.0 License][license], so as this repository.
 
