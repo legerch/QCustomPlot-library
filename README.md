@@ -32,6 +32,9 @@ add_subdirectory(QCustomPlot-library) # Or if library is put in a folder "depend
 # Link needed libraries
 # QCustomPlot library
 target_link_libraries(${PROJECT_NAME} PRIVATE qcustomplot)
+
+# Compile needed definitions
+target_compile_definitions(${PROJECT_NAME} PRIVATE QCUSTOMPLOT_USE_LIBRARY)
 ```
 > Examples of how to use the library can be found in the associated repository [QCustomPlot-examples][repo-qcp-examples]
 
