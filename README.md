@@ -16,6 +16,7 @@ This repository also provide a [changelog][changelog-repo] in order to track cha
 
 | Library version | Qt compatibility |
 | :-: | :-: |
+| [2.1.1.1][tag-2.1.1.1] | `Qt 4.6.x` -> `Qt 6.4.x` |
 | [2.1.0.2][tag-2.1.0.2] | `Qt 5.8.x` -> `Qt 6.2.x` |
 | [2.1.0.1][tag-2.1.0.1] | `Qt 4.6.x` -> `Qt 6.0.0` |
 
@@ -57,5 +58,6 @@ target_compile_definitions(${PROJECT_NAME} PRIVATE QCUSTOMPLOT_USE_LIBRARY)
 [changelog-official]: https://github.com/leger50/QCustomPlot-library/blob/dev/changelog-official.txt
 [license]: https://github.com/leger50/QCustomPlot-library/blob/master/LICENSE.md
 
+[tag-2.1.1.1]: https://github.com/leger50/QCustomPlot-library/releases/tag/2.1.1.1
 [tag-2.1.0.2]: https://github.com/leger50/QCustomPlot-library/releases/tag/2.1.0.2
 [tag-2.1.0.1]: https://github.com/leger50/QCustomPlot-library/releases/tag/2.1.0.1
