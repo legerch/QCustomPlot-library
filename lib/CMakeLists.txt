@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.14)
 
 # Set project properties
 set(PROJECT_NAME qcustomplot)
-set(PROJECT_VERSION_SEMANTIC 2.1.0.2)
+set(PROJECT_VERSION_SEMANTIC 2.1.1.1)
 set(PROJECT_VERSION_CPP_MIN 11)
 
 # Set project options
