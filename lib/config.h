@@ -1,9 +1,0 @@
-#ifndef QCP_LIB_CONFIG_H
-#define QCP_LIB_CONFIG_H
-
-#define QCP_LIB_VERSION "2.1.1"
-#define QCP_LIB_VERSION_MAJOR "2"
-#define QCP_LIB_VERSION_MINOR "1"
-#define QCP_LIB_VERSION_PATCH "1"
-
-#endif // QCP_LIB_CONFIG_H

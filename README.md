@@ -12,12 +12,12 @@ Besides, this repository also provides _community patches_ available.
 # 2. Current version
 
 Official changelog of the library can be found at [official changelog][changelog-official] file.  
-This repository also provide a [changelog][changelog-repo] in order to track change differencies with the official version.
+This repository also provide a [changelog][changelog-repo] in order to track change differencies with the official version (represented by **tweak** version property).
 
-| Library version | Type of version<br>(**official** or **community**) | Qt compatibility |
-| :-: | :-: | :-: |
-| [2.1.1][tag-2.1.1] | Community | `Qt 5.8.x` -> `Qt 6.2.x` |
-| [2.1.0][tag-2.1.0] | Official | `Qt 4.6.x` -> `Qt 6.0.0` |
+| Library version | Qt compatibility |
+| :-: | :-: |
+| [2.1.0.2][tag-2.1.0.2] | `Qt 5.8.x` -> `Qt 6.2.x` |
+| [2.1.0.1][tag-2.1.0.1] | `Qt 4.6.x` -> `Qt 6.0.0` |
 
 # 3. How to use
 
@@ -57,5 +57,5 @@ target_compile_definitions(${PROJECT_NAME} PRIVATE QCUSTOMPLOT_USE_LIBRARY)
 [changelog-official]: https://github.com/leger50/QCustomPlot-library/blob/dev/changelog-official.txt
 [license]: https://github.com/leger50/QCustomPlot-library/blob/master/LICENSE.md
 
-[tag-2.1.1]: https://github.com/leger50/QCustomPlot-library/releases/tag/2.1.1
-[tag-2.1.0]: https://github.com/leger50/QCustomPlot-library/releases/tag/2.1.0
+[tag-2.1.0.2]: https://github.com/leger50/QCustomPlot-library/releases/tag/2.1.0.2
+[tag-2.1.0.1]: https://github.com/leger50/QCustomPlot-library/releases/tag/2.1.0.1

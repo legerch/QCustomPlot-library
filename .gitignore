@@ -40,6 +40,9 @@ build_release/
 # Generated documentation
 html
 
+# Generate project properties
+config.h
+
 # User configuration
 *.user
 

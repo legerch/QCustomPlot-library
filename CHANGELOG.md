@@ -3,14 +3,14 @@
 All notable changes to this project will be documented in this file.  
 The format is based on [Keep a Changelog] and this project adheres to [Semantic Versioning].
 
-## [next] - 2.1.2
+## [next] - 2.1.0.3
 
-## [2.1.1] - 2022-01-10
+## [2.1.0.2] - 2022-01-10
 ### Fixed
 
 - Fix compilation issues with `Qt >= 6.2.0` (thanks to _miccs_ on thread forum [qt 6.2 patch][path-qt-6.2])
 
-## [2.1.0] - 2022-01-10
+## [2.1.0.1] - 2022-01-10
 
 Creation of the repository which provides :
 - **QCustomPlot** library compliant with _Cmake_ projects (`.pro` file has been replaced by `CMakeLists.txt`)
@@ -22,9 +22,9 @@ Creation of the repository which provides :
 [semantic versioning]: https://semver.org/spec/v2.0.0.html
 
 <!-- Versions -->
-[next]: https://github.com/leger50/QCustomPlot-library/compare/2.1.1...dev
-[2.1.1]: https://github.com/leger50/QCustomPlot-library/compare/2.1.0...2.1.1
-[2.1.0]: https://github.com/leger50/QCustomPlot-library/releases/tag/2.1.0
+[next]: https://github.com/leger50/QCustomPlot-library/compare/2.1.0.2...dev
+[2.1.0.2]: https://github.com/leger50/QCustomPlot-library/compare/2.1.0.1...2.1.0.2
+[2.1.0.1]: https://github.com/leger50/QCustomPlot-library/releases/tag/2.1.0.1
 
 <!-- Links to patches -->
 [path-qt-6.2]: https://www.qcustomplot.com/index.php/support/forum/2380

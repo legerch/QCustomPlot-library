@@ -2,7 +2,8 @@ cmake_minimum_required(VERSION 3.14)
 
 # Set project properties
 set(PROJECT_NAME qcustomplot)
-set(PROJECT_VERSION_SEMANTIC 2.1.1)
+set(PROJECT_VERSION_SEMANTIC 2.1.0.2)
+set(PROJECT_VERSION_CPP_MIN 11)
 
 # Set project options
 # Options availables for external project start with "EXT_OPT_QCPLIB_", those options can be use in top CMakeFiles.
@@ -25,8 +26,16 @@ set(CMAKE_AUTOUIC ON)   # Specific to Qt
 set(CMAKE_AUTOMOC ON)   # Specific to Qt
 set(CMAKE_AUTORCC ON)   # Specific to Qt
 
-set(CMAKE_CXX_STANDARD 11)
+# Set C++ standard to use
+if(DEFINED CMAKE_CXX_STANDARD)
+    if(${CMAKE_CXX_STANDARD} LESS ${PROJECT_VERSION_CPP_MIN})
+        message(FATAL_ERROR "Project ${PROJECT_NAME} require at least C++ standard ${PROJECT_VERSION_CPP_MIN}")
+    endif()
+else()
+    set(CMAKE_CXX_STANDARD ${PROJECT_VERSION_CPP_MIN})
+endif()
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+message(STATUS "Project \"${PROJECT_NAME}\" compiled with C++ standard ${CMAKE_CXX_STANDARD}")
 
 # Configure file project - File containing macro that can be used in project
 configure_file("${CMAKE_CURRENT_SOURCE_DIR}/config.h.in" "${CMAKE_CURRENT_SOURCE_DIR}/config.h")
