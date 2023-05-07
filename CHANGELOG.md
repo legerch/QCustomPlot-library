@@ -25,11 +25,11 @@ Creation of the repository which provides :
 [semantic versioning]: https://semver.org/spec/v2.0.0.html
 
 <!-- Versions -->
-[next]: https://github.com/leger50/QCustomPlot-library/compare/2.1.1.1...dev
+[next]: https://github.com/legerch/QCustomPlot-library/compare/2.1.1.1...dev
 
-[2.1.1.1]: https://github.com/leger50/QCustomPlot-library/compare/2.1.0.2...2.1.1.1
-[2.1.0.2]: https://github.com/leger50/QCustomPlot-library/compare/2.1.0.1...2.1.0.2
-[2.1.0.1]: https://github.com/leger50/QCustomPlot-library/releases/tag/2.1.0.1
+[2.1.1.1]: https://github.com/legerch/QCustomPlot-library/compare/2.1.0.2...2.1.1.1
+[2.1.0.2]: https://github.com/legerch/QCustomPlot-library/compare/2.1.0.1...2.1.0.2
+[2.1.0.1]: https://github.com/legerch/QCustomPlot-library/releases/tag/2.1.0.1
 
 <!-- Links to patches -->
 [path-qt-6.2]: https://www.qcustomplot.com/index.php/support/forum/2380

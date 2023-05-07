@@ -51,13 +51,13 @@ target_compile_definitions(${PROJECT_NAME} PRIVATE QCUSTOMPLOT_USE_LIBRARY)
 [cmake]: https://cmake.org/
 
 <!-- Links to external repositories -->
-[repo-qcp-examples]: https://github.com/leger50/QCustomPlot-examples
+[repo-qcp-examples]: https://github.com/legerch/QCustomPlot-examples
 
 <!-- Links to this repository -->
-[changelog-repo]: https://github.com/leger50/QCustomPlot-library/blob/dev/CHANGELOG.md
-[changelog-official]: https://github.com/leger50/QCustomPlot-library/blob/dev/changelog-official.txt
-[license]: https://github.com/leger50/QCustomPlot-library/blob/master/LICENSE.md
+[changelog-repo]: https://github.com/legerch/QCustomPlot-library/blob/dev/CHANGELOG.md
+[changelog-official]: https://github.com/legerch/QCustomPlot-library/blob/dev/changelog-official.txt
+[license]: https://github.com/legerch/QCustomPlot-library/blob/master/LICENSE.md
 
-[tag-2.1.1.1]: https://github.com/leger50/QCustomPlot-library/releases/tag/2.1.1.1
-[tag-2.1.0.2]: https://github.com/leger50/QCustomPlot-library/releases/tag/2.1.0.2
-[tag-2.1.0.1]: https://github.com/leger50/QCustomPlot-library/releases/tag/2.1.0.1
+[tag-2.1.1.1]: https://github.com/legerch/QCustomPlot-library/releases/tag/2.1.1.1
+[tag-2.1.0.2]: https://github.com/legerch/QCustomPlot-library/releases/tag/2.1.0.2
+[tag-2.1.0.1]: https://github.com/legerch/QCustomPlot-library/releases/tag/2.1.0.1
