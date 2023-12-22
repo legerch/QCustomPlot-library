@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.14)
+cmake_minimum_required(VERSION 3.19)
 project(qcustomplotroot LANGUAGES CXX)
 
 # Find architecture property

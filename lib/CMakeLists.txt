@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.14)
+cmake_minimum_required(VERSION 3.19)
 
 # Set project properties
 set(PROJECT_NAME qcustomplot)
@@ -41,11 +41,8 @@ message(STATUS "Project \"${PROJECT_NAME}\" compiled with C++ standard ${CMAKE_C
 configure_file("${CMAKE_CURRENT_SOURCE_DIR}/config.h.in" "${CMAKE_CURRENT_SOURCE_DIR}/config.h")
 
 # Find Qt packages
-find_package(QT NAMES Qt6 Qt5 COMPONENTS Core REQUIRED)
-find_package(QT NAMES Qt6 Qt5 COMPONENTS PrintSupport REQUIRED)
-
-find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Core REQUIRED)
-find_package(Qt${QT_VERSION_MAJOR} COMPONENTS PrintSupport REQUIRED)
+find_package(QT NAMES Qt6 Qt5 COMPONENTS Core PrintSupport REQUIRED)
+find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Core PrintSupport REQUIRED)
 
 # Manage library files
 set(PROJECT_HEADERS
